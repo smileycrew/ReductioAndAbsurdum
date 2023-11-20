@@ -10,6 +10,14 @@ public class Product
     // navigation property i may need to get rid of this
     public ProductType Type { get; set; }
     public DateTime DateStocked { get; set; }
+    public int DaysOnShelf
+    {
+        get
+        {
+            TimeSpan timeOnShelf = DateTime.Now - DateStocked;
+            return timeOnShelf.Days;
+        }
+    }
 }
 
 public class ProductType
