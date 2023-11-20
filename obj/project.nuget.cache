@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "olQI2vF3PvNh54uXaV7oCKPjWyjZCiroBQrvK7/C5NSi6ojSLSoYMbPxKuCnWbIU73TJfdX+CpDoZQ1GHqg1dw==",
+  "dgSpecHash": "nA2ahY8ECKQJH6yN0WDiykAHATkkcbF3gOEXG7Mut/Mc5+1wcRge0wu0l1+YXDPFddLUhmghrz/lgSq3Eo1tIg==",
   "success": true,
-  "projectFilePath": "/Users/edwin.moz/workspace/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj",
+  "projectFilePath": "/Users/edwin.moz/workspace/csharp/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
