@@ -87,7 +87,7 @@ void ViewAllProducts()
 {
     foreach (Product product in products)
     {
-        Console.WriteLine($"{product.Name} {(product.Available ? "is available" : "has sold")} for {product.Price} gems product is found in the {product.Type.Name} aisle... stocked on {product.DateStocked}");
+        Console.WriteLine($"{product.Name} {(product.Available ? "is available" : "has sold")} for {product.Price} gems product is found in the {product.Type.Name} aisle... stocked on {product.DateStocked}... it has been in stock for {product.DaysOnShelf} day(s)");
     }
 }
 // method to add a product
@@ -114,7 +114,7 @@ void AddAProduct()
     {
         try
         {
-            Console.WriteLine("choose one of the following product types");
+            Console.WriteLine("choose one of the following product types...");
             ViewAllProductTypes();
             newProduct.ProductTypeId = int.Parse(Console.ReadLine().Trim());
             // I SHOULDNT BE ABLE TO ADD A FOREIGN KEY MORE THAN THE PRODUCT TYPES AVAILABLE!!!
@@ -126,6 +126,7 @@ void AddAProduct()
     }
     // lets find the matching product type and assign it to this product
     newProduct.Type = productTypes.First(product => product.Id == newProduct.ProductTypeId);
+    newProduct.DateStocked = DateTime.Now;
     Console.WriteLine($"the product's name is {newProduct.Name}");
     Console.WriteLine($"the product's price is {newProduct.Price}");
     Console.WriteLine($"the product's availability is {newProduct.Available}");
