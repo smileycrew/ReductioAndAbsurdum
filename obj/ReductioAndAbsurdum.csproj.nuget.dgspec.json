@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/edwin.moz/workspace/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj": {}
+    "/Users/edwin.moz/workspace/csharp/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj": {}
   },
   "projects": {
-    "/Users/edwin.moz/workspace/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj": {
+    "/Users/edwin.moz/workspace/csharp/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/edwin.moz/workspace/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj",
+        "projectUniqueName": "/Users/edwin.moz/workspace/csharp/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj",
         "projectName": "ReductioAndAbsurdum",
-        "projectPath": "/Users/edwin.moz/workspace/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj",
+        "projectPath": "/Users/edwin.moz/workspace/csharp/ReductioAndAbsurdum/ReductioAndAbsurdum.csproj",
         "packagesPath": "/Users/edwin.moz/.nuget/packages/",
-        "outputPath": "/Users/edwin.moz/workspace/ReductioAndAbsurdum/obj/",
+        "outputPath": "/Users/edwin.moz/workspace/csharp/ReductioAndAbsurdum/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/edwin.moz/.nuget/NuGet/NuGet.Config"
