@@ -9,6 +9,7 @@ public class Product
     public int ProductTypeId { get; set; }
     // navigation property i may need to get rid of this
     public ProductType Type { get; set; }
+    public DateTime DateStocked { get; set; }
 }
 
 public class ProductType
