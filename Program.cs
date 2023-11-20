@@ -2,8 +2,46 @@
 // add a product to the inventory,
 // delete a product from the inventory,
 // and update a product's details
+List<ProductType> productTypes = new List<ProductType>()
+{
+    new ProductType()
+    {
+        Id = 1,
+        Name = "apparel"
+    },
+    new ProductType()
+    {
+        Id = 2,
+        Name = "potion"
+    },
+    new ProductType()
+    {
+        Id = 3,
+        Name = "enchanted object"
+    },
+    new ProductType()
+    {
+        Id = 4,
+        Name = "wand"
+    }
+};
 
-using System.Linq.Expressions;
+List<Product> products = new List<Product>()
+{
+    new Product()
+    {
+        // name
+        Name = "magic robe",
+        // price
+        Price = 49.99M,
+        // available
+        Available = true,
+        // producttypeid
+        ProductTypeId = 1,
+        // type as a reference
+        Type = productTypes[0]
+    }
+};
 
 string chosenOption = null;
 
@@ -41,8 +79,6 @@ while (chosenOption != "0")
         throw new NotImplementedException("update a product's detail");
     }
 }
-// Products have a name, price (as a decimal), and a boolean to indicate whether they are still available. 
-//They also have a ProductTypeId, which categorize them into the following categories: apparel, potions, enchanted objects, and wands.
 // When adding a product to the inventory, the user should be able to choose from these options to add a product type id to the new product.
 
 // Product Types have Name and Id properties.
